@@ -1,0 +1,23 @@
+.fade-in{
+animation-name:fade-in-animation;
+animation-duration:6s;
+}
+@keyframes fade-in-animation {
+from{
+    opacity: 0;
+    width: 100px;
+}
+to{
+    opacity: 1;
+    width: 300px;
+}
+}
+
+
+.blink-colour {
+    animation-name: blink-colour-animation;
+    animation-duration: 10s;
+}
+@keyframes blink-colour-animation{
+    
+}
